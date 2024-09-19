@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.bg {
+  background: url("../img/fondog.jpg") no-repeat center center/cover;
+}
+
+.header__logo {
+  margin-left: -170px;
+  padding-top: 20px;
+}
+.header__title {
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 25px;
+  margin-top: -41px;
+  margin-left: -120px;
+  font-weight: 700;
+}
+.header__time {
+  margin-top: -40px;
+  margin-left: 165px;
+}
+.header__timetext {
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-top: -25px;
+  margin-left: 200px;
+  font-weight: 400;
+}
+.header__phone {
+  margin-left: 460px;
+  margin-top: -40px;
+}
+.header__phonetext {
+  color: #FFFFFF;
+  margin-left: 500px;
+  margin-top: -25px;
+  font-weight: 400;
+}
+.header__appointment {
+  color: #FFFFFF;
+  margin-top: -25px;
+  margin-left: 790px;
+  font-weight: 500;
+  background-color: #F2726F;
+  max-width: 300px;
+  padding: 21px 20px 8px;
+  border-radius: 15px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.header__yellow {
+  position: absolute;
+  margin-top: -88px;
+  margin-left: 977px;
+}
+.header__arrow {
+  position: absolute;
+  margin-left: 994px;
+  margin-top: -70px;
+  font-weight: 700;
+}
+.header__fon {
+  background-color: #FFFFFF;
+  height: 60px;
+  width: 1020px;
+  border-radius: 10px;
+}
+.header__service {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 20px 0px 0px 40px;
+  margin-top: -18px;
+}
+.header__label {
+  margin-left: 90px;
+  display: flex;
+  margin-top: -16px;
+}
+.header__specials {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 140px;
+  margin-top: -18px;
+}
+.header__facilities {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -18px;
+  margin-left: 240px;
+}
+.header__reviews {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -18px;
+  margin-left: 330px;
+}
+.header__shop {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -18px;
+  margin-left: 415px;
+}
+.header__labeltwo {
+  margin-left: 450px;
+  display: flex;
+  margin-top: -16px;
+}
+.header__about {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: -18px;
+  margin-left: 485px;
+}
+.header__search {
+  display: flex;
+  margin-top: -18px;
+  margin-left: 900px;
+}
+.header__cart {
+  display: flex;
+  margin-top: -30px;
+  margin-left: 950px;
+}
+
+.intro {
+  padding: 208px 0 400px 0;
+}
+.intro__title {
+  color: #fff;
+  padding-bottom: 35px;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+.intro__make {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #F2726F;
+  max-width: 300px;
+  padding: 17px 30px 7px;
+  border-radius: 15px;
+  position: relative;
+}
+.intro__yellow {
+  position: absolute;
+  margin-top: -48px;
+  margin-left: 257px;
+}
+.intro__arrow {
+  position: absolute;
+  margin-left: 274px;
+  margin-top: -31px;
+  font-weight: 700;
+}
+
+.dog {
+  margin-top: -80px;
+  margin-bottom: 180px;
+}
+.dog__wrap {
+  position: relative;
+  background-color: #5D62B5;
+  padding: 100px 87px 0 87px;
+  border-radius: 40px;
+}
+.dog__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.dog__subtitle {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 583px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #F5F5F5;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: -54px;
+}
+.dog__photo {
+  margin-bottom: 120px;
+  position: relative;
+  bottom: -120px;
+}
+.dog__photo img {
+  border-radius: 40px;
+}
+.dog__blob {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+}
+
+.info__alabuga {
+  padding-top: 70px;
+  margin-left: -80px;
+}
+.info__promise {
+  color: #5D62B5;
+  margin-left: -53px;
+  margin-top: -26px;
+  font-size: 15px;
+}
+.info__natus {
+  font-size: 35px;
+  margin-top: 30px;
+  display: flex;
+  margin-left: -130px;
+}
+.info__lovedog {
+  margin-left: -130px;
+  margin-top: 60px;
+}
+.info__care {
+  margin-left: -55px;
+  font-size: 20px;
+  color: #F2726F;
+  margin-top: -63px;
+  font-weight: 600;
+}
+.info__text {
+  color: #4B4B4B;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: -55px;
+}
+.info__vetdog {
+  margin-left: 290px;
+  display: flex;
+  margin-top: -120px;
+}
+.info__site {
+  color: #F2726F;
+  font-size: 20px;
+  margin-left: 365px;
+  margin-top: -63px;
+  font-weight: 600;
+}
+.info__dolorem {
+  color: #4B4B4B;
+  font-size: 15px;
+  margin-left: 365px;
+  margin-top: 20px;
+}
+.info__dogstream {
+  margin-left: 620px;
+  display: flex;
+  margin-top: -120px;
+}
+.info__live {
+  color: #F2726F;
+  font-size: 20px;
+  margin-left: 704px;
+  margin-top: -65px;
+  font-weight: 600;
+}
+.info__autem {
+  color: #4B4B4B;
+  font-size: 15px;
+  margin-left: 704px;
+}
+
+.bg2 {
+  background: url(../img/Image.jpg);
+  width: 100%;
+  margin-top: 200px;
+}
+
+.game__dog {
+  margin-top: 78px;
+  margin-left: 40px;
+}
+.game__spot {
+  position: absolute;
+  width: 35%;
+  margin-top: -1px;
+  margin-left: -785px;
+}
+.game__points {
+  position: absolute;
+  margin-top: 190px;
+  margin-left: -785px;
+}
+.game__line {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -100px;
+}
+.game__ball {
+  position: absolute;
+  margin-left: 410px;
+  margin-top: 150px;
+}
+.game__text {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 500;
+  margin-top: 200px;
+}
+.game__make {
+  position: absolute;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #F2726F;
+  padding: 9px 15px;
+  border-radius: 10px;
+  margin-top: 370px;
+}

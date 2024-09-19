@@ -1,0 +1,353 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Roboto; 
+} 
+a{ 
+    text-decoration: none; 
+} 
+li{ 
+    list-style: none; 
+} 
+.container{ 
+    max-width: 1020px; 
+    margin: 0 auto; 
+} 
+.bg{ 
+    background: url("../img/fondog.jpg") no-repeat center center/ cover; 
+} 
+.header{ 
+    &__logo{ 
+        margin-left: -170px; 
+        padding-top: 20px; 
+    } 
+    &__title{ 
+        color: #FFFFFF; 
+        position: absolute; 
+        font-size: 25px; 
+        margin-top: -41px; 
+        margin-left: -120px; 
+        font-weight: 700; 
+    } 
+    &__time{ 
+        margin-top: -40px; 
+        margin-left: 165px; 
+    } 
+    &__timetext{ 
+        color: #FFFFFF; 
+        font-size: 15px; 
+        margin-top: -25px; 
+        margin-left: 200px; 
+        font-weight: 400; 
+    } 
+    &__phone{ 
+        margin-left: 460px; 
+        margin-top: -40px; 
+    } 
+    &__phonetext{ 
+        color: #FFFFFF; 
+        margin-left: 500px; 
+        margin-top: -25px; 
+        font-weight: 400; 
+    } 
+    &__appointment{ 
+        color: #FFFFFF; 
+        margin-top: -25px; 
+        margin-left: 790px; 
+        font-weight: 500; 
+        background-color: #F2726F; 
+        max-width: 300px; 
+        padding: 21px 20px 8px; 
+        border-radius: 15px; 
+        position: relative; 
+        margin-bottom: 40px;
+    } 
+    &__yellow{
+        position: absolute; 
+        margin-top: -88px; 
+        margin-left: 977px; 
+    }
+    &__arrow{
+        position: absolute; 
+        margin-left: 994px; 
+        margin-top: -70px; 
+        font-weight: 700; 
+    }
+    &__fon{
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 1020px;
+    border-radius: 10px;
+
+    }
+    &__service{
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 20px 0px 0px 40px;
+        margin-top: -18px;
+    }
+    &__label{
+        margin-left: 90px;
+        display: flex;
+        margin-top: -16px;
+    }
+    &__specials{
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        margin-left: 140px;
+        margin-top: -18px;
+    }
+    &__facilities{
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-left: 240px;
+    }
+    &__reviews{
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-left: 330px;
+    }
+    &__shop{
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-left: 415px;
+    }
+    &__labeltwo{
+        margin-left: 450px;
+        display: flex;
+        margin-top: -16px;
+    }
+    &__about{
+        color: #000000;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: -18px;
+        margin-left: 485px;
+    }
+    &__search{
+        display: flex;
+        margin-top: -18px;
+        margin-left: 900px;
+    }
+    &__cart{
+        display: flex;
+        margin-top: -30px;
+        margin-left: 950px;
+    }
+}
+ 
+.intro{ 
+    padding: 208px 0 400px 0; 
+    &__title{ 
+        color: #fff; 
+        padding-bottom: 35px; 
+        font-size: 56px; 
+        font-weight: 900; 
+        max-width: 585px; 
+    } 
+    &__make{ 
+        color: #FFFFFF; 
+        font-family: Roboto; 
+        font-size: 20px; 
+        font-weight: 500; 
+        background-color: #F2726F; 
+        max-width: 300px; 
+        padding: 17px 30px 7px; 
+        border-radius: 15px; 
+        position: relative; 
+    } 
+    &__yellow{ 
+        position: absolute; 
+        margin-top: -48px; 
+        margin-left: 257px; 
+    } 
+    &__arrow{ 
+        position: absolute; 
+        margin-left: 274px; 
+        margin-top: -31px; 
+        font-weight: 700; 
+    } 
+} 
+.dog{ 
+    margin-top: -80px; 
+    margin-bottom: 180px; 
+    &__wrap{ 
+        position: relative; 
+        background-color: #5D62B5; 
+        padding: 100px 87px 0 87px; 
+        border-radius: 40px; 
+    } 
+    &__dots{ 
+        position: absolute; 
+        top: -110px; 
+        right: -70px; 
+    } 
+    &__subtitle{ 
+        color: #F5F5F5; 
+        font-weight: 700; 
+        font-size: 12px; 
+        text-transform: uppercase; 
+        &-box{ 
+            display: flex; 
+            align-items: center; 
+            margin-bottom: 33px; 
+        } 
+    } 
+    &__title{ 
+        color: #FFFFFF; 
+        font-size: 36px; 
+        font-weight: 900; 
+        max-width: 583px; 
+        margin-bottom: 36px; 
+    } 
+    &__text{ 
+        color: #F5F5F5; 
+        font-weight: 500; 
+        font-size: 16px; 
+        margin-bottom: -54px; 
+    } 
+    &__photo{ 
+        margin-bottom: 120px; 
+        position: relative; 
+        bottom: -120px; 
+        & img{ 
+            border-radius: 40px; 
+        } 
+    } 
+    &__blob{ 
+        position: absolute; 
+        bottom: -140px; 
+        left: 0; 
+    } 
+}
+.info{
+    &__alabuga{
+       padding-top: 70px;
+       margin-left: -80px;
+    }
+    &__promise{
+        color: #5D62B5;
+        margin-left: -53px;
+        margin-top: -26px;
+        font-size: 15px;
+    }
+    &__natus{
+        font-size: 35px;
+        margin-top: 30px;
+        display: flex;
+        margin-left: -130px;
+    }
+    &__lovedog{
+        margin-left: -130px;
+        margin-top: 60px;
+    }
+    &__care{
+        margin-left: -55px;
+        font-size: 20px;
+        color: #F2726F;
+        margin-top: -63px;
+        font-weight: 600;
+    }
+    &__text{
+        color: #4B4B4B;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: -55px;
+    }
+    &__vetdog{
+        margin-left: 290px;
+        display: flex;
+        margin-top: -120px;
+    }
+    &__site{
+        color: #F2726F;
+        font-size: 20px;
+        margin-left: 365px;
+        margin-top: -63px;
+        font-weight: 600;
+    }
+    &__dolorem{
+        color: #4B4B4B;
+        font-size: 15px;
+        margin-left: 365px;
+        margin-top: 20px;
+    }
+    &__dogstream{
+        margin-left: 620px;
+        display: flex;
+        margin-top: -120px;
+
+    }
+    &__live{
+        color: #F2726F;
+        font-size: 20px;
+        margin-left: 704px;
+        margin-top: -65px;
+        font-weight: 600;
+    }
+    &__autem{
+        color: #4B4B4B;
+        font-size: 15px;
+        margin-left: 704px;
+    }  
+}
+.bg2{
+    background: url(../img/Image.jpg);
+    width: 100%;
+    margin-top: 200px;
+}
+.game{
+    &__dog{
+        margin-top: 78px;
+        margin-left: 40px;
+    }
+    &__spot{
+        position: absolute;
+        width: 35%;
+        margin-top: -1px;
+        margin-left: -785px;
+    }
+    &__points{
+       position: absolute;
+       margin-top: 190px; 
+       margin-left: -785px;
+    }
+    &__line{
+        position: absolute;
+        margin-top: -0px;
+        margin-left: -100px;
+    }
+    &__ball{
+        position: absolute;
+        margin-left: 410px;
+        margin-top: 150px;
+    }
+    &__text{
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-weight: 500;
+        margin-top: 200px;
+    }
+    &__make{
+        position: absolute;
+        color: #FFFFFF;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: #F2726F;
+        padding: 9px 15px;
+        border-radius: 10px;
+        margin-top: 370px;
+    }
+}
+
+
